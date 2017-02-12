@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5367BE221E4E63B700E9D90F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5367BE211E4E63B700E9D90F /* DetailViewController.swift */; };
 		538AF18B1E41430A0003DCD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AF18A1E41430A0003DCD1 /* AppDelegate.swift */; };
 		538AF1901E41430A0003DCD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538AF18E1E41430A0003DCD1 /* Main.storyboard */; };
 		538AF1921E41430A0003DCD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538AF1911E41430A0003DCD1 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		0E5528ED79FDFAA1DD1EEC5F /* Pods_MovieViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovieViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5367BE211E4E63B700E9D90F /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		538AF1871E41430A0003DCD1 /* MovieViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		538AF18A1E41430A0003DCD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		538AF18F1E41430A0003DCD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				538AF1911E41430A0003DCD1 /* Assets.xcassets */,
 				538AF1931E41430A0003DCD1 /* LaunchScreen.storyboard */,
 				538AF1961E41430A0003DCD1 /* Info.plist */,
+				5367BE211E4E63B700E9D90F /* DetailViewController.swift */,
 			);
 			path = MovieViewer;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				538AF18B1E41430A0003DCD1 /* AppDelegate.swift in Sources */,
 				538AF19D1E41436F0003DCD1 /* MoviesViewController.swift in Sources */,
 				538AF1A01E4154D30003DCD1 /* MovieCell.swift in Sources */,
+				5367BE221E4E63B700E9D90F /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +400,7 @@
 				538AF19B1E41430A0003DCD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
