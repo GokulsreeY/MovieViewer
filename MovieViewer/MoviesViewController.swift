@@ -74,6 +74,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource,UITableViewD
         
         cell.titleLabel.text = title
         cell.overViewLabel.text = overview
+        cell.overViewLabel.sizeToFit()
         cell.selectionStyle = .none
         
         // cell.textLabel?.text = title
